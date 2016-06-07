@@ -80,11 +80,8 @@ function runBookmarklet(target) {
             images[i].src = img.imageurl
         }
     }
-} <
-/script>
+} 
 
-<
-script >
     onload = function() {
 
         var bookmarklet = document.getElementById("bookmarklet");
