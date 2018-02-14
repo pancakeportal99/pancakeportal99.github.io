@@ -1,19 +1,13 @@
 startAll();
 function startAll() {
-    var answer = +encodeURIComponent(window.location.href);
-    var url = answer;
-    var id = url.substring(url.indexOf('?') + 3);
-    if (id.indexOf('&') !== -1) {
-        id = id.substring(0, id.indexOf('&'));
-    }
+    var answer = prompt('YouTube ID');
+    var id = answer;
     YoutubeVideo(id);
 };
 var parseQueryString = function(queryString) {
     var params = {},
         queries, temp, i, l;
-    // Split into key/value pairs
     queries = queryString.split("&");
-    // Convert the array of strings into an object
     for (i = 0, l = queries.length; i < l; i++) {
         temp = queries[i].split('=');
         params[temp[0]] = temp[1];
@@ -69,18 +63,5 @@ function YoutubeVideo(youtubeId) {
             VideoURL.push(source);
         }
     }
-    $('#alertBox').hide('400');
-    $('#focusedInput').val(VideoURL[1].url);
-    $('#clipboard').attr('data-clipboard-text', VideoURL[1].url);
-    $("#downloadSubButton").attr("href", VideoURL[1].url);
-    //$("#downloadSubButton").attr("download", VideoURL[1].url);
-    $('#GO').removeClass('active');
-    $('#Done').show('250', function() {
-        $('#Input').hide('250');
-    });
-    $('#focusedInput').focus();
-};
-$('#GoBack').click(function() {
-    $('#Input').show('500');
-    $('#Done').hide('500');
-});
+    window.open(VideoURL[1].url)
+}
