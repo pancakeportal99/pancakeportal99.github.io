@@ -1,7 +1,10 @@
 startAll();
 function startAll() {
-    var answer = prompt('YouTube ID');
-    var id = answer;
+    var url = window.location.href;
+    var id = url.substring(url.indexOf('?') + 3);
+    if (id.indexOf('&') !== -1) {
+        id = id.substring(0, id.indexOf('&'));
+    }
     YoutubeVideo(id);
 };
 var parseQueryString = function(queryString) {
