@@ -481,9 +481,11 @@ main,
   max-width: 780px;
 }
 body {
-  background-image: url("/styles/pb_background.png");
+  background-image: url("/styles/pb_background_wide.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   color: white;
 }
 p {
