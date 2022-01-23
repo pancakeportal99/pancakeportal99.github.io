@@ -17,7 +17,7 @@
 		<track>
 			<title>Afraid? (FLV)</title>
 			<creator>Jeroen Wijering</creator>
-			<location>afraid.flv</location>
+			<location>video.flv</location>
 			<info>http://www.jeroenwijering.com</info>
 		</track>
 		
@@ -27,6 +27,11 @@
 			<location>image.jpg</location>
 		</track>
 		
+		<track>
+			<title>Longtail Introduction</title>
+			<creator>Jeroen Wijering</creator>
+			<location>longtail.flv</location>
+		</track>
 		<track>
 			<title>Urban Blues (SWF)</title>
 			<creator>Jeroen Wijering</creator>
@@ -49,6 +54,11 @@
 			<title>Tio Pepe Madrid (JPG)</title>
 			<creator>Jeroen Wijering</creator>
 			<location>image.jpg</location>
+		</track>
+		<track>
+			<title>Longtail Introduction</title>
+			<creator>Jeroen Wijering</creator>
+			<location>longtail.flv</location>
 		</track>
 		
 		<track>
