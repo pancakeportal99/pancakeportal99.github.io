@@ -2,25 +2,19 @@
 <head>
 
 <title>JW Player Demo</title>
-<script type="text/javascript" src="swfobject.js"></script>
 
 
 </head>
 <body>
 
 
+<object width="520" height="320">
+           <param name="movie" value="mediaplayer.swf">
+           <embed src="mediaplayer.swf" width="520" height="320"></embed>
+		   <param name="allowfullscreen" value="true">
+		   <param name="FlashVars" value="file=playlist.xml&width=520&height=320">
+        </object>
 
-
-
-<p id="player1"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</p>
-<script type="text/javascript">
-	var s1 = new SWFObject("mediaplayer.swf","single","260","160","7");
-	s1.addParam("allowfullscreen","true");
-	s2.addVariable("file","playlist.xml");
-	s1.addVariable("width","260");
-	s1.addVariable("height","160");
-	s1.write("player1");
-</script>
 
 
 
