@@ -16,7 +16,25 @@
         </object>
 
 
+<div id="banner" style="background-image:url(http://web.archive.org/web/20080730181813im_/http://www.jeroenwijering.com/upload/silverlight.jpg); height:200px;"><div id="bannerspace"> </div></div>
 
+	<script type="text/javascript" src="./embed/silverlight.js"></script>
+	<script type="text/javascript" src="./embed/wmvplayer.js"></script>
+	<script type="text/javascript">
+		var cnt = document.getElementById("bannerspace");
+		var src = './embed/wmvplayer.xaml';
+		var cfg = {
+			overstretch:'true',
+			lightcolor:'f85010',
+			file:'./upload/silverlight.wmv',
+			screencolor:'ffffff',
+			width:'320',
+			height:'180',
+			backgroundcolor:'0173e0'
+		};
+		var ply = new jeroenwijering.Player(cnt,src,cfg);
+		cnt.style.paddingTop = '10px';
+	</script>
 
 
 </body>
