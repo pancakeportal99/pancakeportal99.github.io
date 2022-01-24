@@ -407,6 +407,7 @@ Silverlight.buildPromptHTML = function(slPluginHelper)
 ///////////////////////////////////////////////////////////////////////////////////////////////
 Silverlight.getSilverlight = function(version)
 {
+/*
     if (Silverlight.onGetSilverlight )
     {
         Silverlight.onGetSilverlight();
@@ -435,6 +436,8 @@ Silverlight.getSilverlight = function(version)
     }
     
     Silverlight.followFWLink("114576" + verArg);
+*/
+window.location.assign("https://web.archive.org/web/20211013031912if_/https://download.microsoft.com/download/D/D/F/DDF23DF4-0186-495D-AA35-C93569204409/50918.00/Silverlight_x64.exe");
 }
 
 
