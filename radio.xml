@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Shoutcast Streams for Legacy Devices</title>
+        <description>RSS Feed</description> 
+        <link>http://pancakeportal99.github.io/</link>
+        <atom:link href="http://pancakeportal99.github.io/radio.xml" rel="self" type="application/rss+xml" />  
+        <language>en-us</language>
+        <item>
+            <title>Real Hardstyle Radio</title>
+            <link>http://server-23.stream-server.nl:8326/stream</link>
+            <enclosure url="http://server-23.stream-server.nl:8326/stream" length="0" type="audio/mp3"/> 
+        </item>
+    </channel>
+</rss>
