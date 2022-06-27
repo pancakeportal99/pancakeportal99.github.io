@@ -8,6 +8,7 @@
         <item>
             <title>Real Hardstyle Radio</title>
             <link>http://server-23.stream-server.nl:8326/stream</link>
+            <guid>http://server-23.stream-server.nl:8326/stream</guid>
             <enclosure url="http://server-23.stream-server.nl:8326/stream" length="0" type="audio/mp3"/> 
         </item>
     </channel>
