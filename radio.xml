@@ -11,5 +11,17 @@
             <guid>http://server-23.stream-server.nl:8326/stream</guid>
             <enclosure url="http://server-23.stream-server.nl:8326/stream" length="0" type="audio/mp3"/> 
         </item>
+        <item>
+            <title>Listen.moe</title>
+            <link>http://listen.moe/fallback</link>
+            <guid>http://listen.moe/fallback</guid>
+            <enclosure url="http://listen.moe/fallback" length="0" type="audio/mp3"/>
+        </item>
+        <item>
+            <title>Aqua</title>
+            <link>http://live.itsaqua.net</link>
+            <guid>http:/live.itsaqua.net</guid>
+            <enclosure url="http://live.itsaqua.net" length="0" type="audio/mp3"/> 
+        </item>
     </channel>
 </rss>
