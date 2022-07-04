@@ -12,6 +12,12 @@
             <enclosure url="http://server-23.stream-server.nl:8326/stream" length="0" type="audio/mp3"/> 
         </item>
         <item>
+            <title>A.D.M. Hardstyle Radio</title>
+            <link>http://kathy.torontocast.com:2450/stream</link>
+            <guid>http://kathy.torontocast.com:2450/stream</guid>
+            <enclosure url="http://kathy.torontocast.com:2450/stream" length="0" type="audio/mp3"/> 
+        </item>
+        <item>
             <title>Listen.moe</title>
             <link>http://listen.moe/fallback</link>
             <guid>http://listen.moe/fallback</guid>
