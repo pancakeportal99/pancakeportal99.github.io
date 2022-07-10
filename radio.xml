@@ -6,10 +6,16 @@
         <atom:link href="http://pancakeportal99.github.io/radio.xml" rel="self" type="application/rss+xml" />  
         <language>en-us</language>
         <item>
-            <title>Real Hardstyle Radio</title>
-            <link>http://server-23.stream-server.nl:8326/stream</link>
-            <guid>http://server-23.stream-server.nl:8326/stream</guid>
-            <enclosure url="http://server-23.stream-server.nl:8326/stream" length="0" type="audio/mp3"/> 
+            <title>gradio.lv</title>
+            <link>http://stream.gradio.lv/gradio.mp3</link>
+            <guid>http://stream.gradio.lv/gradio.mp3</guid>
+            <enclosure url="http://stream.gradio.lv/gradio.mp3" length="0" type="audio/mp3"/> 
+        </item>
+        <item>
+            <title>Costa Del Mar</title>
+            <link>http://radio4.vip-radios.fm:8020/stream-mp3-Chill_autodj</link>
+            <guid>http://radio4.vip-radios.fm:8020/stream-mp3-Chill_autodj</guid>
+            <enclosure url="http://radio4.vip-radios.fm:8020/stream-mp3-Chill_autodj" length="0" type="audio/mp3"/> 
         </item>
         <item>
             <title>A.D.M. Hardstyle Radio</title>
@@ -28,6 +34,30 @@
             <link>http://mikamp.com/mikamp</link>
             <guid>http://mikamp.com/mikamp</guid>
             <enclosure url="http://mikamp.com/mikamp" length="0" type="audio/mp3"/> 
+        </item>
+        <item>
+            <title>Cirnoise</title>
+            <link>http://cirnoise.com/cirnoise</link>
+            <guid>http://cirnoise.com/cirnoise</guid>
+            <enclosure url="http://cirnoise.com/cirnoise" length="0" type="audio/mp3"/> 
+        </item>
+        <item>
+            <title>CGM UKScene</title>
+            <link>http://cgm-stream.noip.me:8000/mpd</link>
+            <guid>http://cgm-stream.noip.me:8000/mpd</guid>
+            <enclosure url="http://cgm-stream.noip.me:8000/mpd" length="0" type="audio/mp3"/> 
+        </item>
+        <item>
+            <title>boolout lofi</title>
+            <link>http://ec2.yesstreaming.net:1910/stream</link>
+            <guid>http://ec2.yesstreaming.net:1910/stream</guid>
+            <enclosure url="http://ec2.yesstreaming.net:1910/stream" length="0" type="audio/mp3"/> 
+        </item>
+        <item>
+            <title>Anima Amoris - IDM</title>
+            <link>http://amoris.sknt.ru/idm.mp3</link>
+            <guid>http://amoris.sknt.ru/idm.mp3</guid>
+            <enclosure url="http://amoris.sknt.ru/idm.mp3" length="0" type="audio/mp3"/> 
         </item>
     </channel>
 </rss>
