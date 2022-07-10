@@ -18,10 +18,10 @@
             <enclosure url="http://kathy.torontocast.com:2450/stream" length="0" type="audio/mp3"/> 
         </item>
         <item>
-            <title>Listen.moe</title>
-            <link>http://listen.moe/fallback</link>
-            <guid>http://listen.moe/fallback</guid>
-            <enclosure url="http://listen.moe/fallback" length="0" type="audio/mp3"/>
+            <title>Japan-A-Radio</title>
+            <link>http://audio.misproductions.com/japan128k</link>
+            <guid>http://audio.misproductions.com/japan128k</guid>
+            <enclosure url="http://audio.misproductions.com/japan128k" length="0" type="audio/mp3"/>
         </item>
         <item>
             <title>Aqua</title>
