@@ -54,10 +54,10 @@
             <enclosure url="http://ec2.yesstreaming.net:1910/stream" length="0" type="audio/mp3"/> 
         </item>
         <item>
-            <title>Anima Amoris - IDM</title>
-            <link>http://amoris.sknt.ru/idm.mp3</link>
-            <guid>http://amoris.sknt.ru/idm.mp3</guid>
-            <enclosure url="http://amoris.sknt.ru/idm.mp3" length="0" type="audio/mp3"/> 
+            <title>Anima Amoris - Techno</title>
+            <link>http://amoris.sknt.ru/techno.mp3</link>
+            <guid>http://amoris.sknt.ru/techno.mp3</guid>
+            <enclosure url="http://amoris.sknt.ru/techno.mp3" length="0" type="audio/mp3"/> 
         </item>
         <item>
             <title>Anima Amoris - Trance</title>
