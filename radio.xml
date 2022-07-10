@@ -5,6 +5,12 @@
         <link>http://pancakeportal99.github.io/</link>
         <atom:link href="http://pancakeportal99.github.io/radio.xml" rel="self" type="application/rss+xml" />  
         <language>en-us</language>
+	<item>
+            <title>Anima Amoris - Trance</title>
+            <link>http://anima.sknt.ru/trance.mp3</link>
+            <guid>http://anima.sknt.ru/trance.mp3</guid>
+            <enclosure url="http://anima.sknt.ru/trance.mp3" length="0" type="audio/mp3"/> 
+        </item>
         <item>
             <title>gradio.lv</title>
             <link>http://stream.gradio.lv/gradio.mp3</link>
@@ -58,12 +64,6 @@
             <link>http://amoris.sknt.ru/techno.mp3</link>
             <guid>http://amoris.sknt.ru/techno.mp3</guid>
             <enclosure url="http://amoris.sknt.ru/techno.mp3" length="0" type="audio/mp3"/> 
-        </item>
-        <item>
-            <title>Anima Amoris - Trance</title>
-            <link>http://anima.sknt.ru/trance.mp3</link>
-            <guid>http://anima.sknt.ru/trance.mp3</guid>
-            <enclosure url="http://anima.sknt.ru/trance.mp3" length="0" type="audio/mp3"/> 
         </item>
     </channel>
 </rss>
