@@ -24,10 +24,10 @@
             <enclosure url="http://audio.misproductions.com/japan128k" length="0" type="audio/mp3"/>
         </item>
         <item>
-            <title>Aqua</title>
-            <link>http://live.itsaqua.net</link>
-            <guid>http:/live.itsaqua.net</guid>
-            <enclosure url="http://live.itsaqua.net" length="0" type="audio/mp3"/> 
+            <title>Mikamp</title>
+            <link>http://mikamp.com/mikamp</link>
+            <guid>http://mikamp.com/mikamp</guid>
+            <enclosure url="http://mikamp.com/mikamp" length="0" type="audio/mp3"/> 
         </item>
     </channel>
 </rss>
