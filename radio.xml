@@ -61,9 +61,9 @@
         </item>
         <item>
             <title>Anima Amoris - Trance</title>
-            <link>http://amoris.sknt.ru/trance.mp3</link>
-            <guid>http://amoris.sknt.ru/trance.mp3</guid>
-            <enclosure url="http://amoris.sknt.ru/trance.mp3" length="0" type="audio/mp3"/> 
+            <link>http://anima.sknt.ru/trance.mp3</link>
+            <guid>http://anima.sknt.ru/trance.mp3</guid>
+            <enclosure url="http://anima.sknt.ru/trance.mp3" length="0" type="audio/mp3"/> 
         </item>
     </channel>
 </rss>
