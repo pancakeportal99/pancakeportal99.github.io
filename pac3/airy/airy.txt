@@ -249,7 +249,7 @@
 				["UsePlayerColor"] = false,
 				["Material"] = "https://i.imgur.com/vnkCmBc.png",
 				["UseWeaponColor"] = false,
-				["EyeAngles"] = true,
+				["EyeAngles"] = false,
 				["UseLegacyScale"] = false,
 				["Bone"] = "chest",
 				["Color"] = Vector(255, 255, 255),
