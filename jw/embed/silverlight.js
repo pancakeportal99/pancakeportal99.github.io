@@ -390,10 +390,16 @@ Silverlight.buildPromptHTML = function(slPluginHelper)
         {
             shortVer="";
         }
-        slPluginHTML = "<a href='javascript:Silverlight.getSilverlight(\"{1}\");' style='text-decoration: none;'><img src='{2}' alt='Get Microsoft Silverlight' style='border-style: none'/></a>";
-        slPluginHTML = slPluginHTML.replace('{1}', shortVer );
+        //slPluginHTML = "<a href='javascript:Silverlight.getSilverlight(\"{1}\");' style='text-decoration: none;'><img src='{2}' alt='Get Microsoft Silverlight' style='border-style: none'/></a>";
+      slPluginHTML = "<table border='0' cellpadding='0' cellspacing='0' width='206px'><tbody><tr><td><img style='display: block; cursor: pointer; border= 0;' title='Get Microsoft Silverlight' alt='Get Microsoft Silverlight' onclick='javascript:Silverlight.getSilverlight(\"{1}\");' src='{2}'></td></tr><tr><td style='width: 206px; margin: 0px; background: #FFFFFF; color: #C7C7C7; text-align: left; border-left-style: solid; border-right-style: solid; padding-left: 6px; padding-right: 6px; padding-top: 3px; padding-bottom: 0px; border-width: 2px; border-color: #c7c7bd; font-family: Verdana; font-size: 55%'>By clicking <b>'Get Microsoft Silverlight'</b> you accept the<br><a title='Silverlight License Agreement' href='{3}' target='_top' style='text-decoration: underline; color: #96C5E1'><b>Silverlight license agreement</b></a></td></tr><tr><td><img src='{4}' style='border: 0; display: block'></td></tr><tr><td style='width: 206px; margin: 0px; background: #D8EFF9; color: #C7C7C7; text-align: left; border-left-style: solid; border-right-style: solid; padding-left: 6px; padding-right: 6px; padding-top: 0px; padding-bottom: 2px; border-width: 2px; border-color: #c7c7bd; font-family: Verdana; font-size: 55%'>Silverlight updates automatically, <a title='Silverlight Privacy Statement' href='{5}' target='_top' style='text-decoration: underline; color: #96C5E1'><b>learn more</b></a></td></tr><tr><td><img alt='' src='{6}'></td></tr></tbody></table>";  
+      slPluginHTML = slPluginHTML.replace('{1}', shortVer );
         // slPluginHTML = slPluginHTML.replace('{2}', urlRoot + '108181');96188
         slPluginHTML = slPluginHTML.replace('{2}', urlRoot + '96188');
+      
+      slPluginHTML = slPluginHTML.replace('{3}', urlRoot + '92803');
+    slPluginHTML = slPluginHTML.replace('{4}', urlRoot + '98109');
+    slPluginHTML = slPluginHTML.replace('{5}', urlRoot + '92805');
+    slPluginHTML = slPluginHTML.replace('{6}', urlRoot + '96422');
     }
     
     return slPluginHTML;
