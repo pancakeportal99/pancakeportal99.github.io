@@ -392,7 +392,8 @@ Silverlight.buildPromptHTML = function(slPluginHelper)
         }
         slPluginHTML = "<a href='javascript:Silverlight.getSilverlight(\"{1}\");' style='text-decoration: none;'><img src='{2}' alt='Get Microsoft Silverlight' style='border-style: none'/></a>";
         slPluginHTML = slPluginHTML.replace('{1}', shortVer );
-        slPluginHTML = slPluginHTML.replace('{2}', urlRoot + '108181');
+        // slPluginHTML = slPluginHTML.replace('{2}', urlRoot + '108181');96188
+        slPluginHTML = slPluginHTML.replace('{2}', urlRoot + '96188');
     }
     
     return slPluginHTML;
@@ -437,7 +438,8 @@ Silverlight.getSilverlight = function(version)
     
 //    Silverlight.followFWLink("114576" + verArg);
 
-window.location.assign("https://web.archive.org/web/20211013031912if_/https://download.microsoft.com/download/D/D/F/DDF23DF4-0186-495D-AA35-C93569204409/50918.00/Silverlight_x64.exe");
+// window.location.assign("https://web.archive.org/web/20211013031912if_/https://download.microsoft.com/download/D/D/F/DDF23DF4-0186-495D-AA35-C93569204409/50918.00/Silverlight_x64.exe");
+window.location.assign("https://archive.org/download/Silverlight_x64_exe/Silverlight_x64.exe");
 }
 
 
