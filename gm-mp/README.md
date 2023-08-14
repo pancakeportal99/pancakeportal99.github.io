@@ -3,7 +3,7 @@ Replacement YouTube services for Garry's Mod Awesomium mediaplayer with Invidiou
 
 ## Usage
 ```
-MediaPlayer.Services.yt.VideoUrlFormat = "https://pancakeportal99.github.io/gm-mp/youtube.html"
+MediaPlayer.Services.yt.VideoUrlFormat = "http://pancakeportal99.github.io/gm-mp/youtube.html"
 ```
 Execute above code with Lua
 Requires Adobe Flash Player for Firefox
