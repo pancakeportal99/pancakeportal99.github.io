@@ -36,16 +36,16 @@
             <enclosure url="http://audio.misproductions.com/japan128k" length="0" type="audio/mp3"/>
         </item>
         <item>
-            <title>Mikamp</title>
-            <link>http://mikamp.com/mikamp</link>
-            <guid>http://mikamp.com/mikamp</guid>
-            <enclosure url="http://mikamp.com/mikamp" length="0" type="audio/mp3"/> 
+            <title>BVF</title>
+            <link>https://live.bvf.wtf/radio</link>
+            <guid>https://live.bvf.wtf/radio</guid>
+            <enclosure url="https://live.bvf.wtf/radio" length="0" type="audio/mp3"/> 
         </item>
         <item>
-            <title>Cirnoise</title>
-            <link>http://cirnoise.com/cirnoise</link>
-            <guid>http://cirnoise.com/cirnoise</guid>
-            <enclosure url="http://cirnoise.com/cirnoise" length="0" type="audio/mp3"/> 
+            <title>OSC</title>
+            <link>https://stream.zeno.fm/7u3tt71bv0hvv</link>
+            <guid>https://stream.zeno.fm/7u3tt71bv0hvv</guid>
+            <enclosure url="https://stream.zeno.fm/7u3tt71bv0hvv" length="0" type="audio/mp3"/> 
         </item>
         <item>
             <title>CGM UKScene</title>
